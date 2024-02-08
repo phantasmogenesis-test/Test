@@ -7,7 +7,7 @@
 3. SHARE WITH ORGANIZATION/CLASS by making a Pull Request within the main branch (approval from either @Phantasmogenesis or QA team required in order to be merged)
 
 ### Triage
-* When another member of your team makes a Pull Request into your team's branch, you may approve the Pull Request, allowing it to be merged into your team's branch.
+* When another member of your team makes a Pull Request into your team's branch, you may approve the Pull Request if it is of sufficient quality, allowing it to be merged into your team's branch. Alternatively, if there are issues, you may request changes, or simply leave a comment.
 
 ## Information on Branches:
 ### Main Branch:
