@@ -1,23 +1,42 @@
-# Contributing Guidelines
+# Contributing
 
-## Suggested Workflow/Tips:
-### Development
-1. FORK the main branch of [https://github.com/Paul-Austin-Oswego-CSC480-HCI521/OZ-CSC-480-HCI-521-Spring-2024](https://github.com/Paul-Austin-Oswego-CSC480-HCI521/OZ-CSC-480-HCI-521-Spring-2024), making sure that "Copy the main branch only" is NOT checked if you want to be able to develop within your team branch as well as the main branch 
-2. DEVELOP within your fork (pull OR push access with no need for approval in order to merge)
-2. SHARE WITH YOUR TEAM by making a Pull Request within your team's branch (approval from at least one team member required in order to be merged)
-3. SHARE WITH ORGANIZATION/CLASS by making a Pull Request within the main branch (approval from the Triage team required in order to be merged)
+In order to contribute, you will want to fork [https://github.com/Paul-Austin-Oswego-CSC480-HCI521/OZ-CSC-480-HCI-521-Spring-2024](https://github.com/Paul-Austin-Oswego-CSC480-HCI521/OZ-CSC-480-HCI-521-Spring-2024), making sure that the "Copy the main branch only" box is NOT checked if you want to be able to collaborate within your team's branch.
 
-### Triage
-* When another member of your team makes a Pull Request into your team's branch, you may approve the Pull Request if it is of sufficient quality, allowing it to be merged into your team's branch. Alternatively, if there are issues, you may request changes, or simply leave a comment.
+## General Workflow Overview:
+1) Develop within your fork
+2) Once you have something you want to share or just save, do a Git Commit
+3) To move onto your GitHub remote, do Git Push
+4) To share, create a Pull Request (different than Git Pull...) and specify which branch you would like to merge into (e.g. main, engine, gui, etc.)
+5) Await approval/review from the Triage team if making a PR to the main branch, otherwise from any classmate 
 
-## Information on Branches:
-### Main Branch:
+NOTE: Push requests are not enabled, you MUST create a Pull Request so that it can be properly triaged.
 
-* When making a Pull Request to the 'main' branch of the repository, approval from either @Phantasmogenesis or a member of the QA team is required in order for the PR to be merged.
+## Using VS Code to Contribute
 
+This suggested workflow requires that you have integrated with GitHub and are also using the "GitHub Pull Request" extension.
+
+### One-Time Setup:
+1) Open an empty window
+2) Open the SOURCE CONTROL tab on the far left pane
+3) Click "Clone Repository"
+4) Click "Clone from GitHub"
+5) Select your forked repository
+6) Select a folder to place the repository on your local machine
+
+### Developing
+Periodically, you will want to run "Git Pull" through the SOURCE CONTROL menu to get the latest changes from the class's repository.
+
+### Contributing
+
+Once you are done developing:
+
+1) Click the SOURCE CONTROL tab on the far left pane
+2) Type a message describing what you added
+3) Click "Commit"
+4) Select the GITHUB PULL REQUEST extension tab on the far left pane
+5) Fill out a message describing what you added
+6) 
+
+# Branches:
 * TO DO: ~~The main branch runs CI/CD (tests, lints, deployment) through GitHub Actions for each Pull Request.~~
-
-### Team Branches:
-* When making a Pull Request to a particular team's branch of the repository, approval from at least one other member of that team is required in order for the PR to be merged.
-
 * ~~Team branches do NOT run CI/CD (tests, lints, deployment) on each Pull Request.~~
