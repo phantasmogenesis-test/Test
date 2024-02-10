@@ -15,9 +15,9 @@
 
 * When making a Pull Request to the 'main' branch of the repository, approval from either @Phantasmogenesis or a member of the QA team is required in order for the PR to be merged.
 
-* TO DO: ~~ The main branch runs CI/CD (tests, lints, deployment) through GitHub Actions for each Pull Request. ~~
+* TO DO: ~~The main branch runs CI/CD (tests, lints, deployment) through GitHub Actions for each Pull Request.~~
 
 ### Team Branches:
 * When making a Pull Request to a particular team's branch of the repository, approval from at least one other member of that team is required in order for the PR to be merged.
 
-* ~~ Team branches do NOT run CI/CD (tests, lints, deployment) on each Pull Request. ~~
+* ~~Team branches do NOT run CI/CD (tests, lints, deployment) on each Pull Request.~~
