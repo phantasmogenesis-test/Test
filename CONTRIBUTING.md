@@ -38,5 +38,10 @@ Once you are done developing:
 6) 
 
 # Branches:
+### Main branch:
+* Requires approval of Pull Requests by Triage team
 * TO DO: ~~The main branch runs CI/CD (tests, lints, deployment) through GitHub Actions for each Pull Request.~~
+
+### Team branches:
+* Requires approval of at least one other classmate
 * ~~Team branches do NOT run CI/CD (tests, lints, deployment) on each Pull Request.~~
